@@ -71,7 +71,7 @@ a.button-intro, #intro a.button{
 }
 a.button-intro:hover,#intro a.button:hover{
 	border: 2px solid white;
-	background: rgba(0,53,82,0.5);
+	background: rgba(0,0,0,0.5);
 	color: #eb00b1;
 }
 
@@ -265,7 +265,7 @@ nav.nav-mag a{
 }
 
 #aboutus{
-		background: url('../img/aboutus/background.jpg') no-repeat center center fixed; 
+		background: url('../img/aboutus/background-3.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

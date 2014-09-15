@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/mixitup.css" />
 <link rel="stylesheet" href="css/thewall.css" />
-
+<link rel="stylesheet" href="css/magnific-popup.css"> 
 <link rel="stylesheet" href="css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -92,30 +92,30 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="arrow"><a href="#trends">▿</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
-    <video class="covervid-video" autoplay loop poster="img/intro/intro.jpg">
-        <source src="video/AMBIANCE-1906.webmhd.webm" type="video/webm">
-        <source src="video/AMBIANCE-1906.mp4.mp4" type="video/mp4">
+    <video class="covervid-video" autoplay poster="img/intro/intro.jpg">
+        <source src="video/angeloz.webm" type="video/webm">
+        <source src="video/angeloz.mp4" type="video/mp4">
     </video>
 </div>
 </section>
 <!-- SECTION TRENDS -->
 <section class="panel" id="trends">
 	<ul class="trends clearfix">
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
-		<li><img src="http://placehold.it/480x480" alt=""></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
+		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
 
 	</ul>
 	<div class="container">
 		<h2>trends</h2>
-	<div data-configid="11252977/9312319" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+		<div data-configid="11252977/9327463" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 	</div>
 </section>
 
@@ -142,7 +142,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 			<div class="clear"></div>
 		</nav>
-		<div id="container-brands" class="container">
+		<div id="container-brands" class="container clearfix">
 			<?php include('brands.php'); ?>
 		</div>
 	</div>
@@ -246,8 +246,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 <!-- Modal for command -->
 
-<section class="semantic-content" id="modal-text"
-		tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+<section class="semantic-content" id="modal-text" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
 
 	<div class="modal-inner">
 		<div class="header">
@@ -296,7 +295,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <script src="js/jquery.mixitup.js" type="text/javascript"></script>
 <script src="js/jquery.covervid.min.js" type="text/javascript"></script>
 <script src="js/jquery.thewall.js" type="text/javascript"></script>
-
+<script src="js/jquery.magnific-popup.min.js"></script> 
 <script type="text/javascript">
 
     $(document).ready(function () {
@@ -308,7 +307,20 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		    closeButtonClass: 'fa fa-times'
 		});
 		$('#container-brands').mixItUp();
-    	
+		$('.image-link').magnificPopup(
+			{
+				type:'image',
+				tClose: 'Fermer (Esc)',
+				tLoading: 'Chargement...',
+				gallery: 
+					{
+						tPrev: 'Précédent',
+						tNext: 'Suivant',
+						tCounter: '%curr% de %total%',
+						enabled:true
+	  				}
+	  		
+			});
     	$(".owl-carousel").owlCarousel({
 		    items:1,
 		    margin:10,
