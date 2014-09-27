@@ -51,9 +51,15 @@
   z-index: 1045; }
 
 .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
-  width: 100%;
-  cursor: auto; }
-
+/*  width: 100%;
+*/  cursor: auto;
+  padding: 50px;
+  width: 75%;
+  background: white;
+}
+.mfp-inline-holder .mfp-content a, .mfp-ajax-holder .mfp-content a{
+  color: black;
+}
 .mfp-ajax-cur {
   cursor: progress; }
 

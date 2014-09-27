@@ -64,6 +64,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<li><a href="#giftcard">Giftcard</a></li>
 			<li><a href="#jobs">Jobs</a></li>
 			<li><a href="#aboutus">About us</a></li>
+			<li><a href="https://www.facebook.com/angelozmode" target="_blank"><i class="fa fa-facebook"></i></a></li>
+
 			</ul>
 			<ul class="ipad" id="langue-hidden">
 				<li><a href="de">Deutsch</a></li>
@@ -100,19 +102,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </section>
 <!-- SECTION TRENDS -->
 <section class="panel" id="trends">
-	<ul class="trends clearfix">
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-		<li><a href="http://placehold.it/960x960" class="image-link"><img src="http://placehold.it/480x480" alt=""></a></li>
-
-	</ul>
+	<?php include('../include/trends-de.php'); ?>
 	<div class="container">
 		<h2>trends</h2>
 		<div data-configid="11252977/9327463" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
@@ -124,7 +114,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="container">
 		<h2>Geschäfte</h2>
 	</div>
-<?php  include('../mag-de.php'); ?>
+<?php  include('../include/mag-de.php'); ?>
 
 </section>
 
@@ -143,7 +133,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<div class="clear"></div>
 		</nav>
 		<div id="container-brands" class="container clearfix">
-			<?php include('../brands-de.php'); ?>
+			<?php include('../include/brands-de.php'); ?>
 		</div>
 	</div>
 </section>
@@ -210,7 +200,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="jobs">
 	<div class="container">
 		<h2>Jobs</h2>
-		<?php include('../jobs-de.php'); ?>
+		<?php include('../include/jobs-de.php'); ?>
 </div>
 </section>
 <!-- SECTION About -->
