@@ -13,8 +13,8 @@
 <link rel="stylesheet" href="css/skeleton.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/mixitup.css" />
-<link rel="stylesheet" href="css/thewall.css" />
-<link rel="stylesheet" href="css/magnific-popup.css"> 
+<!-- <link rel="stylesheet" href="css/thewall.css" />
+ --><link rel="stylesheet" href="css/magnific-popup.css"> 
 <link rel="stylesheet" href="css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -104,8 +104,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<?php include('include/trends-fr.php'); ?>
 	<div class="container">
 		<h2>trends</h2>
-		<div data-configid="11252977/9327463" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-	</div>
+<div data-configid="11252977/9490441" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>	</div>
 </section>
 
 <!-- SECTION MAGASIN -->
@@ -282,8 +281,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <script src="js/jquery.angeloz.js"></script>
 <script src="js/jquery.mixitup.js" type="text/javascript"></script>
 <script src="js/jquery.covervid.min.js" type="text/javascript"></script>
-<script src="js/jquery.thewall.js" type="text/javascript"></script>
-<script src="js/jquery.magnific-popup.min.js"></script> 
+<!-- <script src="js/jquery.thewall.js" type="text/javascript"></script>
+ --><script src="js/jquery.magnific-popup.min.js"></script> 
 <script type="text/javascript">
 
     $(document).ready(function () {

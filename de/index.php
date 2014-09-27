@@ -13,8 +13,8 @@
 <link rel="stylesheet" href="../css/skeleton.css" />
 <link rel="stylesheet" href="../css/style.css" />
 <link rel="stylesheet" href="../css/mixitup.css" />
-<link rel="stylesheet" href="../css/thewall.css" />
-<link rel="stylesheet" href="../css/magnific-popup.css"> 
+<!-- <link rel="stylesheet" href="../css/thewall.css" />
+ --><link rel="stylesheet" href="../css/magnific-popup.css"> 
 <link rel="stylesheet" href="../css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -105,8 +105,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<?php include('../include/trends-de.php'); ?>
 	<div class="container">
 		<h2>trends</h2>
-		<div data-configid="11252977/9327463" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-	</div>
+<div data-configid="11252977/9490441" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>	</div>
 </section>
 
 <!-- SECTION MAGASIN -->
@@ -114,7 +113,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="container">
 		<h2>Geschäfte</h2>
 	</div>
-<?php  include('../include/mag-de.php'); ?>
+<?php  include('../include/mag-lightbox-de.php'); ?>
 
 </section>
 
@@ -299,13 +298,11 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 
     	$('.covervid-video').coverVid(1280, 720);
-		$('.GITheWall').GITheWall({
-			responsive:true,
-		    nextButtonClass: 'fa fa-arrow-right',
-		    prevButtonClass: 'fa fa-arrow-left',
-		    closeButtonClass: 'fa fa-times'
-		});
 		$('#container-brands').mixItUp();
+				$('.ajax-popup-link').magnificPopup({
+		  type: 'ajax'
+		});
+
 		$('.image-link').magnificPopup(
 			{
 				type:'image',

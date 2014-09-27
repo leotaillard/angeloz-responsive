@@ -86,7 +86,7 @@ $brands = array(
   array("marque"=>"Tommy Hilfiger","woman"=>true,"man"=>true,"fribourg"=>true,"avry"=>true,"bulle"=>false),
   array("marque"=>"Tommy Tailored","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>true,"bulle"=>false),
   // array("marque"=>"Tosca Blu","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>true,"bulle"=>false),
-  array("marque"=>"Van Gils","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
+  // array("marque"=>"Van Gils","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Van Laack","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Vera Mont","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Woolrich","woman"=>true,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),

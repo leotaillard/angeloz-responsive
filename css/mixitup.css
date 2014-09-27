@@ -1,3 +1,7 @@
+#brands .container .column, #brands .container .columns{
+	float: none !important;
+}
+
 #brands-nav{
 	margin-bottom: 20px;
 }
@@ -26,7 +30,6 @@
 #container-brands .mix h3{
 	font-size: 12px;
 	text-align: center;
-	background: green;
 }
 #container-brands .mix a:hover{
 	border: none;
@@ -41,6 +44,24 @@ ul#instafeed li{
 	padding: 0;
 	margin: 0;
 
+}
+ .GITheWall{
+  width: 100%;
+  position: relative;
+ }
+.GITheWall ul {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+}
+.GITheWall ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+    cursor: pointer;
+    line-height: 3em;
 }
 
 
