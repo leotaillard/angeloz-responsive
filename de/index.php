@@ -303,27 +303,23 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		  type: 'ajax'
 		});
 
-		$('.image-link').magnificPopup(
-			{
-				type:'image',
+		$('.gallery').each(function() { // the containers for all your galleries
+		    $(this).magnificPopup({
+		        delegate: '.image-link', // the selector for gallery item
+		        type: 'image',
 				tClose: 'Fermer (Esc)',
 				tLoading: 'Chargement...',
-				gallery: 
-					{
-						tPrev: 'Précédent',
-						tNext: 'Suivant',
-						tCounter: '%curr% de %total%',
-						enabled:true
-	  				}
-	  		
-			});
-    	$(".owl-carousel").owlCarousel({
-		    items:1,
-		    margin:10,
-        	URLhashListener:true,
-        	autoplayHoverPause:true,
-    	    startPosition: 'fribourg',
-       	});
+		        gallery: {
+			       	tPrev: 'Précédent',
+					tNext: 'Suivant',
+					tCounter: '%curr% de %total%',
+			        enabled:true
+		        }
+		    });
+		});    
+		$('.ajax-popup-link').magnificPopup({
+			type: 'ajax'
+		});
 	    
 
     });

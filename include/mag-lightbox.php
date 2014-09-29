@@ -1,5 +1,5 @@
     <div class="GITheWall clearfix">
-      <ul>
+      <ul class="gallery clearfix">
 
 
         <!-- ICI C'EST FRIBOURG -->

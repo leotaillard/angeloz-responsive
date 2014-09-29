@@ -1,4 +1,4 @@
-	<ul class="trends clearfix">
+	<ul class="gallery trends clearfix">
 		<li><a href="img/trends/01.png" class="image-link"><img src="img/trends/01.png" alt=""></a></li>
 		<li><a href="img/trends/LOOK-01.png" class="image-link"><img src="img/trends/LOOK-01.png" alt=""></a></li>
 		<li><a href="img/trends/02.png" class="image-link"><img src="img/trends/02.png" alt=""></a></li>

@@ -1,5 +1,5 @@
     <div class="GITheWall clearfix">
-      <ul>
+      <ul class="gallery clearfix">
         <li data-contenttype="ajax" data-href="../ajax-contents/offnungszeit-fribourg.html">
           <img src="../img/mag/mini/mini-offnungszeit-fribourg.jpg" alt="offnungszeit fribourg"/>
         </li>
