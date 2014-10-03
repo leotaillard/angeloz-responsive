@@ -1,5 +1,4 @@
-    <div class="GITheWall clearfix">
-      <ul class="gallery clearfix">
+      <ul class="gallery-mag gallery clearfix">
 
 
         <!-- ICI C'EST FRIBOURG -->
@@ -20,14 +19,17 @@
         <li class="ajax-popup-link" href="../ajax-contents/kontakt-fribourg.html">
           <img src="../img/mag/mini/mini-kontakt-fribourg.jpg" alt="kontakt fribourg"/>
         </li>
+      </ul>
+      <ul class="gallery-mag gallery clearfix">
+
         <!-- ICI C'EST AVRY -->
 
         <li class="ajax-popup-link" href="../ajax-contents/offnungszeit-avry.html">
           <img src="../img/mag/mini/mini-offnungszeit-avry.jpg" alt="offnungszeit avry"/>
         </li>
 
-        <li class="image-link" href="../img/mag/avry/avry-1.jpg">
-          <img src="../img/mag/mini/mini-avry-1.jpg" alt="magasin avry"/>
+        <li class="image-link" href="../img/mag/avry/avry-4.jpg">
+          <img src="../img/mag/mini/mini-avry-4.jpg" alt="magasin avry"/>
         </li>
 
         <li class="image-link" href="../img/mag/avry/avry-2.jpg">
@@ -40,6 +42,8 @@
         <li class="ajax-popup-link" href="../ajax-contents/kontakt-avry.html">
           <img src="../img/mag/mini/mini-kontakt-avry.jpg" alt="kontakt avry"/>
         </li>
+      </ul>
+      <ul class="gallery-mag gallery clearfix">
 
         <!-- ICI C'EST BULLE -->
         <li class="ajax-popup-link" href="../ajax-contents/offnungszeit-bulle.html">
@@ -52,6 +56,9 @@
         </li>
         <li class="image-link" href="../img/mag/bulle/bulle-1.jpg">
           <img src="../img/mag/mini/mini-bulle-1.jpg" alt="magasin bulle"/>
+        </li>
+        <li class="image-link" href="../img/mag/bulle/bulle-1.jpg">
+          <img src="../img/mag/mini/mini-bulle-2.jpg" alt="magasin bulle"/>
         </li>
         <li class="ajax-popup-link" href="../ajax-contents/kontakt-bulle.html">
           <img src="../img/mag/mini/mini-kontakt-bulle.jpg" alt="kontakt bulle"/>

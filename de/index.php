@@ -68,7 +68,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
 			</ul>
 			<ul class="ipad" id="langue-hidden">
-				<li><a href="de">Deutsch</a></li>
+				<li><a href="../">Français</a></li>
 			</ul>
 	</nav>
 	
