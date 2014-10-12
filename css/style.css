@@ -17,6 +17,7 @@ body {
 .ipad{
 	display: none;
 }
+.invisible{display: none;}
 img{
 	max-width: 100%;
 }
@@ -172,14 +173,14 @@ ul.trends li{
 	text-align: right;
 }
 #menu ul#langue-hidden{
-	font-size: 12px;
+	font-size: 10px;
 	text-align: center;
     width: 100%;
     background: #333;
 }
 #menu ul{
 	min-height: 30px;
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: uppercase;
 	padding: 16px 0 0 10px;
 }

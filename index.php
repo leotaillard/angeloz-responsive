@@ -58,7 +58,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<nav id="menu" class="thirteen columns clearfix">
 		<ul>
 			<li><a href="#trends">Trends</a></li>
-			<li><a href="#contact">Magasins</a></li>
+			<li><a href="#contact">Magasins & horaires</a></li>
 			<li><a href="#brands">Brands</a></li>
 			<li><a href="#compte">Compte Avantages Client</a></li>
 			<li><a href="#giftcard">Giftcard</a></li>
@@ -225,6 +225,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <!-- SECTION About -->
 <!-- FOOTER -->
 <footer class="panel" id="copyright">
+	
 <div class="container">
 		<p class="social"><a href="https://www.facebook.com/angelozmode" target="_blank"><i class="fa fa-facebook"></i></a></p>
 		<p><a href="http://www.1906.ch" target="_blank"><img src="css/img/logo_1906.png" alt="Logo angéoz"></a></p>

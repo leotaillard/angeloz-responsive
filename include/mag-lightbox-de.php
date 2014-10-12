@@ -19,6 +19,20 @@
         <li class="ajax-popup-link" href="../ajax-contents/kontakt-fribourg.html">
           <img src="../img/mag/mini/mini-kontakt-fribourg.jpg" alt="kontakt fribourg"/>
         </li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-2.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-3.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-5.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-6.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-7.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-8.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-9.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-10.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-11.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-12.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-13.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-14.jpg"></li>
+        <li class="image-link invisible" href="../img/mag/FRIBOURG/fribourg-15.jpg"></li>
+
       </ul>
       <ul class="gallery-mag gallery clearfix">
 

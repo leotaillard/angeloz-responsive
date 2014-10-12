@@ -25,7 +25,7 @@ $brands = array(
   array("marque"=>"Closed","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Codello","woman"=>true,"man"=>true,"fribourg"=>true,"avry"=>true,"bulle"=>true),
   array("marque"=>"Comma","woman"=>true,"man"=>false,"fribourg"=>false,"avry"=>true,"bulle"=>true),
-  array("marque"=>"Custommade","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>false,"bulle"=>false),
+  // array("marque"=>"Custommade","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Diadora","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Diesel","woman"=>true,"man"=>true,"fribourg"=>false,"avry"=>true,"bulle"=>false),
   array("marque"=>"DKNY","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>false,"bulle"=>false),
