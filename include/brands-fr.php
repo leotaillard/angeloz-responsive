@@ -102,7 +102,7 @@ $brands = array(
 
 foreach ($brands as $key => $value) {
 ?>
-<div id="<?php echo $value['marque']; ?>" class='mix two columns
+<div id="<?php echo $value['marque']; ?>" class='mix three columns
 <?php 
 	if ($value['woman']) {
 		echo "woman ";

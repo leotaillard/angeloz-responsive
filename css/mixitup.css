@@ -1,7 +1,3 @@
-#brands .container .column, #brands .container .columns{
-	float: none !important;
-}
-
 #brands-nav{
 	margin-bottom: 20px;
 }
@@ -46,7 +42,6 @@ ul#instafeed li{
 
 }
 @media only screen and (max-width: 959px) {
-.issuuembed, #trends h2{display: none;}
 #brands-nav .filter{
 	cursor: pointer;
 	float: none;

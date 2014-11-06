@@ -8,13 +8,11 @@
 <title>Angeloz Mode</title>
 
 <link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/modal.css">
 <link rel="stylesheet" href="css/text.css" />
 <link rel="stylesheet" href="css/skeleton.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/mixitup.css" />
-<!-- <link rel="stylesheet" href="css/thewall.css" />
- --><link rel="stylesheet" href="css/magnific-popup.css"> 
+<link rel="stylesheet" href="css/magnific-popup.css"> 
 <link rel="stylesheet" href="css/font-awesome.min.css" />
 
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -48,14 +46,20 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <header id="header">
+<div class="container header-top desktop">
+	<nav id="menu-header-top" class="columns clearfix sixteen">
+		<a href="https://www.facebook.com/angelozmode" target="_blank"><i class="fa fa-facebook"></i></a>
+		<a href="de">Deutsch</a>
+	</nav>
+</div>
 <div class="container">
 	<nav class="logo">
-		<a href="index.php" class="two columns alpha clearfix">
+		<a href="index.php" class="two columns clearfix">
 			<img src="css/img/logo.png" alt="logo angeloz mode" />
 		</a>
 		<div class="iphone icon-menu">Menu &#9776;</div>
 	</nav>
-	<nav id="menu" class="thirteen columns clearfix">
+	<nav id="menu" class="fourteen columns clearfix">
 		<ul>
 			<li><a href="#trends">Trends</a></li>
 			<li><a href="#contact">Magasins & horaires</a></li>
@@ -64,17 +68,14 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<li><a href="#giftcard">Giftcard</a></li>
 			<li><a href="#jobs">Jobs</a></li>
 			<li><a href="#aboutus">About us</a></li>
-			<li><a href="https://www.facebook.com/angelozmode" target="_blank"><i class="fa fa-facebook"></i></a></li>
 			</ul>
 			<ul class="ipad" id="langue-hidden">
-				<li><a href="de">Deutsch</a></li>
+					<li><a href="de">Deutsch</a></li>
 			</ul>
 	</nav>
 	
-	<nav id="langue" class="one columns omega clearfix">
-		<a href="de">Deutsch</a>
-	</nav>
 </div>
+<div class="othersite desktop"><a href="http://www.1906.ch" target="_blank"><img src="css/img/logo_1906.png" alt="1906"></a></div>
 </header>
 	
 <!-- FIN DU HEADER -->
@@ -83,14 +84,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		<div class="sixteen columns">
 			<a href="index.php"><h1><img src="css/img/logo-angeloz.svg" alt="logo angeloz mode" /></h1></a>
 		</div>
-		<div class="eight columns">
-			<a href="#trends" class="button-intro" title="Découvrez nos dernières nouveautés">Découvrez nos dernières nouveautés</a>				
-		</div>
-		<div class="eight columns">
-			<a href="#modal-text" class="button button-intro call-modal" title="Commander un bon en ligne">Commander un bon en ligne</a>				
-		</div>
 	</div>
-	<div class="arrow"><a href="#trends">▿</a></div>
+	<div class="arrow"><a href="#trends">▾</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
     <video class="covervid-video" autoplay poster="img/intro/intro.jpg">
@@ -104,15 +99,15 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<?php include('include/trends-fr.php'); ?>
 	<div class="container">
 		<h2>trends</h2>
-<div data-configid="11252977/9490441" style="width: 960px; height: 828px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>	</div>
+		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="img/trends/issuu.jpg" alt="ISSUU magazine"></a>
 </section>
 
 <!-- SECTION MAGASIN -->
 <section class="panel" id="contact">
 	<div class="container">
 		<h2>Magasins</h2>
+		<?php  include('include/mag-fr.php'); ?>
 	</div>
-<?php  include('include/mag-lightbox.php'); ?>
 
 </section>
 
@@ -121,12 +116,15 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="container">
 		<h2>brands</h2>
 		<nav id="brands-nav">
-			<div class="filter" data-filter="all">Toutes les marques</div>
-			<div class="filter" data-filter=".fribourg">Fribourg</div>
-			<div class="filter" data-filter=".avry">Avry</div>
-			<div class="filter" data-filter=".bulle">Bulle</div>
-			<div class="filter" data-filter=".man">Homme</div>
-			<div class="filter" data-filter=".woman">Femme</div>
+<!-- 			<div class="filter" data-filter="all">Toutes les marques</div>
+ -->		
+ 			<div class="filter" data-filter=".fribourg.woman">Fribourg <span class="icon woman-icon"></span></div>
+ 			<div class="filter" data-filter=".fribourg.man">Fribourg <span class="icon man-icon"></span></div>
+ 			<div class="filter" data-filter=".avry.woman">Avry <span class="icon woman-icon"></span></div>
+ 			<div class="filter" data-filter=".avry.man">Avry <span class="icon man-icon"></span></div>
+ 			<div class="filter" data-filter=".bulle.woman">Bulle <span class="icon woman-icon"></span></div>
+ 			<div class="filter" data-filter=".bulle.man">Bulle <span class="icon man-icon"></span></div>
+
 
 			<div class="clear"></div>
 		</nav>
@@ -134,6 +132,8 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<?php include('include/brands-fr.php'); ?>
 		</div>
 	</div>
+	<div class="arrow arrow-brands"><a href="#brands">▴</a></div>
+
 </section>
 <!-- SECTION AVANTAGES CLIENTS -->
 <section class="panel" id="compte">
@@ -189,7 +189,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			<div class="eight columns omega">
 				<p>Les bons cadeaux Giftcards sont valable dans les magasins "Angéloz" à Fribourg, Avry, Bulle et La Tour-de-Trême ainsi que dans le magasin "1906 by Angeloz" à Fribourg Centre</p>
 				
-				<a href="#modal-text" class="button call-modal" title="Commander un bon en ligne">Commander un bon en ligne</a>				
+				<a href="ajax-contents/bons.html" class="button ajax-popup-link" title="Commander un bon en ligne">Commander un bon en ligne</a>				
 				
 			</div>
 		</div>
@@ -233,57 +233,13 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </div>
 </footer>
 
-<!-- Modal for command -->
-
-<section class="semantic-content" id="modal-text" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
-
-	<div class="modal-inner">
-		<div class="header">
-			<h2 id="modal-label">Commande de bons Angéloz et 1906 en ligne</h2>
-		</div>
-
-		<div class="modal-content">
-				<div class="modal-half">
-					<img src="img/giftcard/giftcard-command.png" alt="Bons Angéloz et 1906" />
-				<p>*La carte cadeau est envoyée par lettre RECOMMANDÉE et est valable dans les magasins « Angéloz » à Fribourg, Avry et Bulle ainsi que dans les magasins « 1906 by Angéloz » à Fribourg-Centre et Centre La Tour. Si la carte n'est pas utilisée pendant 36 mois, l'avoir est annulé. Le solde total ou restant n'est pas convertible en espèces. En cas de perte ou de vol, la carte ne sera pas remplacée.</p>
-					
-				</div>
-				<div class="modal-half">
-					<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="26N54SV2UT6E6">
-					<table>
-					<tr><td><input type="hidden" name="on0" value="Montant">Montant</td></tr><tr><td><select name="os0">
-						<option value="-">- 50.00 CHF</option>
-						<option value="-">- 100.00 CHF</option>
-						<option value="-">- 200.00 CHF</option>
-					</select> </td></tr>
-					<tr><td><input type="hidden" name="on1" value="Carte">Carte</td></tr><tr><td><select name="os1">
-						<option value="Angéloz">Angéloz </option>
-						<option value="1906">1906 </option>
-					</select> </td></tr>
-					</table>
-					<input type="hidden" name="currency_code" value="CHF">
-					<input type="image" src="https://www.sandbox.paypal.com/fr_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-					<img alt="" border="0" src="https://www.sandbox.paypal.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
-					</form>
-				</div>
-		</div>
-
-	</div>
-
-	<!-- Use Hash-Bang to maintain scroll position when closing modal -->
-	<a href="#!" class="modal-close" title="Close this modal"
-			data-dismiss="modal" data-close="X" >&times;</a>
-</section>
 <!-- SCRIPTS -->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="js/jquery.queryloader2.min.js"></script>
 <script src="js/jquery.angeloz.js"></script>
 <script src="js/jquery.mixitup.js" type="text/javascript"></script>
 <script src="js/jquery.covervid.min.js" type="text/javascript"></script>
-<!-- <script src="js/jquery.thewall.js" type="text/javascript"></script>
- --><script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/jquery.magnific-popup.min.js"></script> 
 <script type="text/javascript">
 
     $(document).ready(function () {
