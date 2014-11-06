@@ -121,24 +121,6 @@ ul.trends li{
 	margin: 0;
 
 }
-span.icon{
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-}
-.icon.woman-icon{
-	background: url('img/woman-icon.png');
-}
-.icon.man-icon{
-	background: url('img/man-icon.png');
-}
-#brands-nav .filter:hover > .icon.woman-icon, #brands-nav .filter.active .icon.woman-icon{
-	background: url('img/woman-icon-hover.png');
-}
-#brands-nav .filter:hover > .icon.man-icon, #brands-nav .filter.active .icon.man-icon{
-	background: url('img/man-icon-hover.png');
-}
-
 /* HEADER */
 @keyframes color_up {
     from {
@@ -300,8 +282,7 @@ nav.nav-mag a{
   width: 100%;
   position: relative;
   list-style: none;
-  padding: 0px 0 30px 0;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   text-align: left;
   width: 100%;
 }

@@ -118,13 +118,13 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		<nav id="brands-nav">
 <!-- 			<div class="filter" data-filter="all">Toutes les marques</div>
  -->		
- 			<div class="filter" data-filter=".fribourg.woman">Fribourg <span class="icon woman-icon"></span></div>
- 			<div class="filter" data-filter=".fribourg.man">Fribourg <span class="icon man-icon"></span></div>
- 			<div class="filter" data-filter=".avry.woman">Avry <span class="icon woman-icon"></span></div>
- 			<div class="filter" data-filter=".avry.man">Avry <span class="icon man-icon"></span></div>
- 			<div class="filter" data-filter=".bulle.woman">Bulle <span class="icon woman-icon"></span></div>
- 			<div class="filter" data-filter=".bulle.man">Bulle <span class="icon man-icon"></span></div>
-
+ 			<div class="filter" data-filter=".fribourg.woman">Fribourg woman</div>
+ 			<div class="filter" data-filter=".fribourg.man">Fribourg man</div>
+ 			<div class="filter" data-filter=".avry.woman">Avry woman</div>
+ 			<div class="filter" data-filter=".avry.man">Avry man</div>
+ 			<div class="filter" data-filter=".bulle.woman">Bulle woman</div>
+<!--  			<div class="filter" data-filter=".bulle.man">Bulle man</div>
+ -->
 
 			<div class="clear"></div>
 		</nav>
@@ -256,7 +256,11 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 
     	$('.covervid-video').coverVid(1280, 720);
 
-		$('#container-brands').mixItUp();
+		$('#container-brands').mixItUp({
+			load: {
+				filter: '.fribourg.woman'
+			}
+		});
 
 		$('.gallery').each(function() { // the containers for all your galleries
 		    $(this).magnificPopup({

@@ -64,7 +64,7 @@ $brands = array(
   array("marque"=>"Parajumpers","woman"=>true,"man"=>true,"fribourg"=>true,"avry"=>true,"bulle"=>false),
   array("marque"=>"Paul & Shark","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Paul Smith Jeans","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
-  array("marque"=>"Paul Smith London","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
+  // array("marque"=>"Paul Smith London","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Pepe Jeans","woman"=>true,"man"=>true,"fribourg"=>false,"avry"=>true,"bulle"=>false),
   array("marque"=>"Polo Ralph Lauren","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   // array("marque"=>"Princess","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>true,"bulle"=>false),
@@ -84,7 +84,7 @@ $brands = array(
   // array("marque"=>"Stetson","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   // array("marque"=>"Stone Island","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Tommy Hilfiger","woman"=>true,"man"=>true,"fribourg"=>true,"avry"=>true,"bulle"=>false),
-  array("marque"=>"Tommy Tailored","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>true,"bulle"=>false),
+  // array("marque"=>"Tommy Tailored","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>true,"bulle"=>false),
   // array("marque"=>"Tosca Blu","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>true,"bulle"=>false),
   // array("marque"=>"Van Gils","woman"=>false,"man"=>true,"fribourg"=>true,"avry"=>false,"bulle"=>false),
   array("marque"=>"Van Laack","woman"=>true,"man"=>false,"fribourg"=>true,"avry"=>false,"bulle"=>false),
@@ -125,7 +125,7 @@ foreach ($brands as $key => $value) {
 <?php $imgName = removeAccents($imgName); ?>
 <?php $imgName = strtoupper($imgName); ?>
 
-  <img src="img/brands/<?php echo $imgName; ?>.svgz" alt="<?php echo $value['marque']; ?>">
+  <img src="img/brands/png/<?php echo $imgName; ?>.png" alt="<?php echo $value['marque']; ?>">
  	<h3><?php echo $value['marque']; ?></h3>
 </div>
 <?php
