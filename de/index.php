@@ -74,7 +74,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 			</ul>
 	</nav>
 </div>
-<div class="othersite desktop"><a href="http://www.1906.ch" target="_blank"><img src="../css/img/logo_1906.png" alt="1906"></a></div>
+<div class="othersite desktop"><a href="http://www.1906.ch" target="_blank"><img src="../css/img/logo_1906.png" alt="1906" width="70%" height="70%"></a></div>
 </header>
 	
 <!-- FIN DU HEADER -->
@@ -97,7 +97,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 <section class="panel" id="trends">
 	<?php include('../include/trends-de.php'); ?>
 	<div class="container">
-		<h2>trends</h2>
+		<h2>magazine</h2>
 		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="../img/trends/issuu.jpg" alt="ISSUU magazine"></a>
 </section>
 
@@ -118,11 +118,12 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 		<nav id="brands-nav">
 <!-- 			<div class="filter" data-filter="all">Toutes les marques</div>
  -->		
- 			<div class="filter" data-filter=".fribourg.woman">Fribourg woman</div>
- 			<div class="filter" data-filter=".fribourg.man">Fribourg man</div>
- 			<div class="filter" data-filter=".avry.woman">Avry woman</div>
- 			<div class="filter" data-filter=".avry.man">Avry man</div>
- 			<div class="filter" data-filter=".bulle.woman">Bulle woman</div>
+			<div class="filter" data-filter=".premiumbrands">Premium Brands</div>
+ 			<div class="filter" data-filter=".fribourgwoman">Fribourg WOMEN</div>
+ 			<div class="filter" data-filter=".fribourgman">Fribourg MEN</div>
+ 			<div class="filter" data-filter=".avrywoman">Avry WOMEN</div>
+ 			<div class="filter" data-filter=".avryman">Avry MEN</div>
+ 			<div class="filter" data-filter=".bullewoman">Bulle WOMEN</div>
 <!--  			<div class="filter" data-filter=".bulle.man">Bulle man</div>
  -->
 			<div class="clear"></div>
@@ -253,7 +254,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
     	$('.covervid-video').coverVid(1280, 720);
 		$('#container-brands').mixItUp({
 			load: {
-				filter: '.fribourg.woman'
+				filter: '.premiumbrands'
 			}
 		});
 		
