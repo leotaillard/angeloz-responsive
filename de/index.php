@@ -87,9 +87,9 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 	<div class="arrow"><a href="#trends">▾</a></div>
 	<div class="overlay"></div>
 	<div class="covervid-wrapper">
-    <video class="covervid-video" autoplay poster="../img/intro/intro.jpg">
-        <source src="../video/angeloz.webm" type="video/webm">
-        <source src="../video/angeloz.mp4" type="video/mp4">
+    <video class="covervid-video" autoplay poster="../video/NOEL-2014.png">
+        <source src="../video/NOEL-2014.webm" type="video/webm">
+        <source src="../video/NOEL-2014.mp4" type="video/mp4">
     </video>
 </div>
 </section>
