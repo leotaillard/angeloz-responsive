@@ -1,0 +1,99 @@
+/* FORM */
+#contact-form {
+  margin-top: 0;
+}
+#contact-form textarea,
+#contact-form input {
+  font-family: inherit;
+  font-size: inherit;
+}
+#contact-form .border {
+  border: white 3px solid;
+}
+#contact-form .alert-success {
+  text-align: center;
+}
+#contact-form .help-block {
+  width: 100%;
+  margin: 10px 0;
+  color: red;
+  font-size: 14px;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#contact-form .form-half.alpha {
+  padding-right: 5px;
+}
+#contact-form .form-half.beta {
+  padding-left: 5px;
+}
+#contact-form .form-half {
+  width: 50%;
+  float: left;
+}
+#contact-form input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  color: #015896;
+}
+#contact-form .game {
+  color: black;
+  padding-top: 10px;
+  background: white;
+  position: relative;
+  width: 20%;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  border: #015896 solid 2px;
+}
+#contact-form .game.selected {
+  background: #f0ce49;
+}
+#contact-form .game span {
+  width: 100%;
+  display: inline-block;
+}
+#contact-form .game span.game-name {
+  font-size: 12px;
+  font-weight: bold;
+}
+#contact-form .game span {
+  font-size: 12px;
+}
+#contact-form input[type=checkbox] {
+  display: none;
+}
+#contact-form input#name {
+  margin: 0 5px 0 0;
+}
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  color: #015896;
+  min-height: 100px;
+}
+#contact-form .btn-submit {
+  width: 100%;
+  text-transform: uppercase;
+  background: none;
+  color: white;
+  padding: 10px;
+  border: 3px solid white;
+}
+#contact-form .btn-submit:hover {
+  width: 100%;
+  cursor: pointer;
+  background: white;
+  color: #015896;
+  padding: 10px;
+  border: 3px solid white;
+}
