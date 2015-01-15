@@ -2,9 +2,9 @@
 		<li class="desktop"><img src="img/sale/sale.jpg" alt="Pattern angeloz"></li>
                 <li class="desktop"><img src="img/sale/black-pattern.jpg" alt="Pattern angeloz"></li>
                 <li><img src="img/sale/sale.jpg" alt="Pattern angeloz"></li>
-                <li class="desktop"><img src="img/sale/black-pattern.jpg" alt="Pattern angeloz"></li>
+                <li><img src="img/sale/black-pattern.jpg" alt="Pattern angeloz"></li>
                 <li class="desktop"><img src="img/sale/sale.jpg" alt="Pattern angeloz"></li>
-                <li class="desktop"><img src="img/sale/black-pattern.jpg" alt="Pattern angeloz"></li>
+                <li><img src="img/sale/black-pattern.jpg" alt="Pattern angeloz"></li>
                 <li><img src="img/sale/30-fr.jpg" alt="30 pourcent collection automne/hiver"></li>
                 <li class="desktop"><img src="img/sale/black-pattern.jpg" alt="Pattern angeloz"></li>
                 <li class="desktop"><img src="img/sale/30-fr.jpg" alt="Pattern angeloz"></li>
