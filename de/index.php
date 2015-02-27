@@ -95,7 +95,7 @@ Scotch & Soda / Hilfiger Denim / Diesel / Pepe Jeans / Replay / Selected / Jack 
 </section>
 <!-- SECTION TRENDS -->
 <section class="panel" id="trends">
-	<?php include('../include/sale-de.php'); ?>
+	<?php include('../include/new-de.php'); ?>
 	<div class="container">
 		<h2>magazine</h2>
 		<a href="http://issuu.com/angeloz-mode/docs/angeloz-magazine-05" target="_blank"><img src="../img/trends/issuu.jpg" alt="ISSUU magazine"></a>
