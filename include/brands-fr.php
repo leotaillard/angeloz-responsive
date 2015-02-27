@@ -3,7 +3,7 @@
 include 'connect.php';
 
 // On envois la requète
-$sql = $pdo->query("SELECT * FROM marques WHERE display = 1 AND nomImage != ''");
+$sql = $pdo->query("SELECT * FROM marques WHERE display = 1 AND nomImage != '' ORDER BY marque");
 $sql->setFetchMode(PDO::FETCH_OBJ);
 
 
